@@ -1,0 +1,113 @@
+/* Estilo general del body */
+* {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el título principal */
+.body {
+    background-color: rgb(153, 253, 166);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5%;
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    background-color: rgb(255, 252, 213);
+    padding: 1%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: dashed;
+    padding: 0.2em;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 2px #8fe284;
+}
+
+/* Estilo para las secciones de información */
+aside {
+    padding: 20px;
+}
+
+aside h3 {
+    margin-top: 20px;
+}
+
+aside p {
+    margin: 5px 0;
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para los detalles */
+details {
+    margin: 20px 0;
+}
+
+/* Estilo para el diálogo */
+dialog {
+    border: none;
+}
+
+/* Estilo para el pie de página */
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer-valid {
+    margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex; /* Activar Flexbox */
+    justify-content: space-between; /* Distribuir espacio entre los elementos */
+    align-items: center; /* Alinear elementos verticalmente al centro */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples filas */
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.flex-item {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Espaciado externo */
+    flex: 1 1 100px; /* Crecer, encoger y establecer un ancho base */
+    text-align: center; /* Alinear texto al centro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+    }
+}
